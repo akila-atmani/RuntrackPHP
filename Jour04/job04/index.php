@@ -24,10 +24,10 @@
                 }
             }
 
-            // Fin du tableau HTML
+        
             echo '</table>';
         } else {
-            // Message si aucun argument n'est présent
+           
             echo '<p style="text-align: center;">Aucun argument POST n\'a été reçu.</p>';
         }
     }
