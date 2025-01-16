@@ -1,5 +1,5 @@
 <?php
-    // Fonction pour compter les arguments dans $_GET sans fonctions système
+   
     function countGetArguments($getArray) {
         $count = 0;
 
@@ -12,7 +12,7 @@
         return $count;
     }
 
-    // Afficher le nombre d'arguments $_GET
+   
     if (!empty($_GET)) {
         $argumentCount = countGetArguments($_GET);
         echo "Nombre d'arguments reçus : " . $argumentCount;
@@ -20,12 +20,6 @@
         echo "Aucun argument reçu.";
     }
     ?>
-
-
-
-
-
-
 
 
 <!DOCTYPE html>
