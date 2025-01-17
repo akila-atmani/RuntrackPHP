@@ -1,6 +1,6 @@
 <?php
 
-function convertToLeet($str) {
+function convertir($str) {
    
     $leetStr = "";
 
@@ -32,5 +32,5 @@ function convertToLeet($str) {
 
 
 $chaine = "Coucou , comment ça va ?";
-echo "En leet speak : " . convertToLeet($chaine);
+echo "En leet speak : " . convertir($chaine);
 ?>
