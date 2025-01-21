@@ -1,5 +1,5 @@
 <?php
-// Vérifier si un style a été sélectionné, sinon utiliser un style par défaut
+
 $style = isset($_POST['style']) ? $_POST['style'] : 'style1';
 ?>
 <!DOCTYPE html>
@@ -8,11 +8,11 @@ $style = isset($_POST['style']) ? $_POST['style'] : 'style1';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changement de style</title>
-    <!-- Inclusion dynamique du fichier CSS depuis le dossier css -->
+
     <link rel="stylesheet" href="css/<?php echo htmlspecialchars($style); ?>.css">
 </head>
 <body class=back_ground>
-    <!-- Formulaire avec méthode POST -->
+
     <form action="" method="POST">
         <section class=titre_principale>
         <label for="style">Choisissez un style :</label>
