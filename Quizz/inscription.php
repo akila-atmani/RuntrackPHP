@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'Inscription</title>
-    <link rel="stylesheet" href="styles/khouloud.css">
+    <link rel="stylesheet" href="css/akila.css"> 
 </head>
 <body>
    
@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <button type="submit">S'inscrire ! </button>
         
-        <p>Vous avez déjà un compte ? <a href="../connexion.php">Se connecter</a></p>
+        <p>Vous avez déjà un compte ? <a href="connexion.php">Se connecter</a></p>
     </form>
 
     <footer>
