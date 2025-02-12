@@ -56,7 +56,7 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 /* Style du bouton de soumission */
 button[type="submit"] {
-    background-color: #007bff;
+    background-color: #dc710e;
     color: white;
     border: none;
     padding: 12px;
@@ -69,7 +69,7 @@ button[type="submit"] {
 
 /* Effet au survol du bouton */
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #a63809;
 }
 
 /* Style du footer */

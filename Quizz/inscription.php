@@ -4,7 +4,7 @@
 class User {
     private $pdo;
 
-    // Constructeur de la classe pour initialiser la connexion à la base de données
+
     public function __construct($host, $dbname, $user, $password) {
         try {
             $this->pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);

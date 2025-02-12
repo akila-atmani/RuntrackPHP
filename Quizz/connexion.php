@@ -30,7 +30,7 @@ class User {
 
     public function login($username, $password) {
         // Requête pour vérifier les identifiants de l'utilisateur
-        $stmt = $this->conn->prepare("SELECT * FROM users WHERE username = :username");
+        $stmt = $this->conn->prepare("SELECT * FROM user WHERE username = :username");
         $stmt->bindParam(':username', $username);
         $stmt->execute();
 
